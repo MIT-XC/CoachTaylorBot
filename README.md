@@ -2,7 +2,9 @@
 
 ## Setup
 To download the bot, run `git clone https://github.com/MIT-XC/CoachTaylorBot.git` in your terminal
+
 Switch to the CoachTaylorBot folder by running `cd CoachTaylorBot`
+
 Run `sh setup.sh` to install necessary packages (html5lib, bs4, markovify)
 
 ## Running the Bot
