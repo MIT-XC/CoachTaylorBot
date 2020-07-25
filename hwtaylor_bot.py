@@ -15,11 +15,11 @@ import re
 import requests
 
 DIR = os.path.dirname(os.path.abspath(__file__))
-ARTICLES_DIRECTORY_PATH = os.path.join(DIR, "hwtaylor_articles")
+ARTICLES_DIRECTORY_PATH = os.path.join(DIR, "articles")
 DEFAULT_START_YR = 2016
 DEFAULT_END_YR = 2020
 DEFAULT_SEASONS = ["xc", "itf", "otf"]
-NUM_SENTENCES = 10
+NUM_SENTENCES = 5
 
 #Get user input about years, season, and optional keyword
 default_years = [str(year) for year in range(DEFAULT_START_YR, DEFAULT_END_YR)]
